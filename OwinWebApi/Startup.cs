@@ -17,7 +17,7 @@ namespace OwinAPI
             SwaggerConfig.Register(config);
 
             config.Routes.MapHttpRoute(
-                name: "DefaultApi",
+                name: "OwenWebApi",
                 routeTemplate: "api/{controller}/{action}",
                 defaults: new { id = RouteParameter.Optional }
             );
